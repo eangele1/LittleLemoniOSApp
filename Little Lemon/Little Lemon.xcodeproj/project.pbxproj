@@ -7,6 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43B4C2C72B187C9D00409BCD /* FetchedObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C2C52B187C9D00409BCD /* FetchedObjects.swift */; };
+		43B4C2C82B187C9D00409BCD /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C2C62B187C9D00409BCD /* Persistence.swift */; };
+		43B4C2CA2B187CE300409BCD /* MenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C2C92B187CE300409BCD /* MenuList.swift */; };
+		43B4C2CC2B187D2500409BCD /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C2CB2B187D2500409BCD /* MenuItem.swift */; };
+		43B4C2CF2B187FA800409BCD /* ExampleDatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C2CD2B187FA800409BCD /* ExampleDatabase.xcdatamodeld */; };
+		43B4C2D12B188C9B00409BCD /* DishDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C2D02B188C9B00409BCD /* DishDetails.swift */; };
+		43B4C2D32B1993C700409BCD /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C2D22B1993C700409BCD /* NavigationBarView.swift */; };
+		43B4C2D52B199CA300409BCD /* HexColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C2D42B199CA300409BCD /* HexColorExtension.swift */; };
+		43B4C2E52B19A16A00409BCD /* Karla-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C2D72B19A16900409BCD /* Karla-Bold.ttf */; };
+		43B4C2E62B19A16A00409BCD /* Karla-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C2D82B19A16900409BCD /* Karla-ExtraBoldItalic.ttf */; };
+		43B4C2E72B19A16A00409BCD /* Karla-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C2D92B19A16900409BCD /* Karla-LightItalic.ttf */; };
+		43B4C2E82B19A16A00409BCD /* Karla-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C2DA2B19A16900409BCD /* Karla-BoldItalic.ttf */; };
+		43B4C2E92B19A16A00409BCD /* Karla-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C2DB2B19A16A00409BCD /* Karla-Light.ttf */; };
+		43B4C2EA2B19A16A00409BCD /* Karla-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C2DC2B19A16A00409BCD /* Karla-SemiBold.ttf */; };
+		43B4C2EB2B19A16A00409BCD /* Karla-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C2DD2B19A16A00409BCD /* Karla-Regular.ttf */; };
+		43B4C2EC2B19A16A00409BCD /* Karla-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C2DE2B19A16A00409BCD /* Karla-MediumItalic.ttf */; };
+		43B4C2ED2B19A16A00409BCD /* Karla-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C2DF2B19A16A00409BCD /* Karla-ExtraLight.ttf */; };
+		43B4C2EE2B19A16A00409BCD /* Karla-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C2E02B19A16A00409BCD /* Karla-ExtraLightItalic.ttf */; };
+		43B4C2EF2B19A16A00409BCD /* Karla-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C2E12B19A16A00409BCD /* Karla-SemiBoldItalic.ttf */; };
+		43B4C2F02B19A16A00409BCD /* Karla-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C2E22B19A16A00409BCD /* Karla-ExtraBold.ttf */; };
+		43B4C2F12B19A16A00409BCD /* Karla-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C2E32B19A16A00409BCD /* Karla-Italic.ttf */; };
+		43B4C2F22B19A16A00409BCD /* Karla-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C2E42B19A16A00409BCD /* Karla-Medium.ttf */; };
+		43B4C2F72B19A18000409BCD /* MarkaziText-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C2F32B19A18000409BCD /* MarkaziText-Medium.ttf */; };
+		43B4C2F82B19A18000409BCD /* MarkaziText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C2F42B19A18000409BCD /* MarkaziText-Regular.ttf */; };
+		43B4C2F92B19A18000409BCD /* MarkaziText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C2F52B19A18000409BCD /* MarkaziText-Bold.ttf */; };
+		43B4C2FA2B19A18000409BCD /* MarkaziText-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C2F62B19A18000409BCD /* MarkaziText-SemiBold.ttf */; };
 		43EA37442B16BF6C0034B29E /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EA37432B16BF6C0034B29E /* Onboarding.swift */; };
 		43EA37462B16C29E0034B29E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EA37452B16C29E0034B29E /* Home.swift */; };
 		43EA37482B16C2C50034B29E /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EA37472B16C2C50034B29E /* Menu.swift */; };
@@ -17,6 +43,33 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		43B4C2C52B187C9D00409BCD /* FetchedObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchedObjects.swift; sourceTree = "<group>"; };
+		43B4C2C62B187C9D00409BCD /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		43B4C2C92B187CE300409BCD /* MenuList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuList.swift; sourceTree = "<group>"; };
+		43B4C2CB2B187D2500409BCD /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		43B4C2CE2B187FA800409BCD /* ExampleDatabase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExampleDatabase.xcdatamodel; sourceTree = "<group>"; };
+		43B4C2D02B188C9B00409BCD /* DishDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishDetails.swift; sourceTree = "<group>"; };
+		43B4C2D22B1993C700409BCD /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		43B4C2D42B199CA300409BCD /* HexColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexColorExtension.swift; sourceTree = "<group>"; };
+		43B4C2D72B19A16900409BCD /* Karla-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Bold.ttf"; sourceTree = "<group>"; };
+		43B4C2D82B19A16900409BCD /* Karla-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		43B4C2D92B19A16900409BCD /* Karla-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-LightItalic.ttf"; sourceTree = "<group>"; };
+		43B4C2DA2B19A16900409BCD /* Karla-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-BoldItalic.ttf"; sourceTree = "<group>"; };
+		43B4C2DB2B19A16A00409BCD /* Karla-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Light.ttf"; sourceTree = "<group>"; };
+		43B4C2DC2B19A16A00409BCD /* Karla-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-SemiBold.ttf"; sourceTree = "<group>"; };
+		43B4C2DD2B19A16A00409BCD /* Karla-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Regular.ttf"; sourceTree = "<group>"; };
+		43B4C2DE2B19A16A00409BCD /* Karla-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-MediumItalic.ttf"; sourceTree = "<group>"; };
+		43B4C2DF2B19A16A00409BCD /* Karla-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-ExtraLight.ttf"; sourceTree = "<group>"; };
+		43B4C2E02B19A16A00409BCD /* Karla-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		43B4C2E12B19A16A00409BCD /* Karla-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		43B4C2E22B19A16A00409BCD /* Karla-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-ExtraBold.ttf"; sourceTree = "<group>"; };
+		43B4C2E32B19A16A00409BCD /* Karla-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Italic.ttf"; sourceTree = "<group>"; };
+		43B4C2E42B19A16A00409BCD /* Karla-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Medium.ttf"; sourceTree = "<group>"; };
+		43B4C2F32B19A18000409BCD /* MarkaziText-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MarkaziText-Medium.ttf"; sourceTree = "<group>"; };
+		43B4C2F42B19A18000409BCD /* MarkaziText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MarkaziText-Regular.ttf"; sourceTree = "<group>"; };
+		43B4C2F52B19A18000409BCD /* MarkaziText-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MarkaziText-Bold.ttf"; sourceTree = "<group>"; };
+		43B4C2F62B19A18000409BCD /* MarkaziText-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MarkaziText-SemiBold.ttf"; sourceTree = "<group>"; };
+		43B4C2FB2B19A1B700409BCD /* Little-Lemon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Little-Lemon-Info.plist"; sourceTree = SOURCE_ROOT; };
 		43EA37432B16BF6C0034B29E /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
 		43EA37452B16C29E0034B29E /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		43EA37472B16C2C50034B29E /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
@@ -38,6 +91,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43B4C2D62B19A0BA00409BCD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				43B4C2F52B19A18000409BCD /* MarkaziText-Bold.ttf */,
+				43B4C2F32B19A18000409BCD /* MarkaziText-Medium.ttf */,
+				43B4C2F42B19A18000409BCD /* MarkaziText-Regular.ttf */,
+				43B4C2F62B19A18000409BCD /* MarkaziText-SemiBold.ttf */,
+				43B4C2D72B19A16900409BCD /* Karla-Bold.ttf */,
+				43B4C2DA2B19A16900409BCD /* Karla-BoldItalic.ttf */,
+				43B4C2E22B19A16A00409BCD /* Karla-ExtraBold.ttf */,
+				43B4C2D82B19A16900409BCD /* Karla-ExtraBoldItalic.ttf */,
+				43B4C2DF2B19A16A00409BCD /* Karla-ExtraLight.ttf */,
+				43B4C2E02B19A16A00409BCD /* Karla-ExtraLightItalic.ttf */,
+				43B4C2E32B19A16A00409BCD /* Karla-Italic.ttf */,
+				43B4C2DB2B19A16A00409BCD /* Karla-Light.ttf */,
+				43B4C2D92B19A16900409BCD /* Karla-LightItalic.ttf */,
+				43B4C2E42B19A16A00409BCD /* Karla-Medium.ttf */,
+				43B4C2DE2B19A16A00409BCD /* Karla-MediumItalic.ttf */,
+				43B4C2DD2B19A16A00409BCD /* Karla-Regular.ttf */,
+				43B4C2DC2B19A16A00409BCD /* Karla-SemiBold.ttf */,
+				43B4C2E12B19A16A00409BCD /* Karla-SemiBoldItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		43F2FB392B100C6600F355F1 = {
 			isa = PBXGroup;
 			children = (
@@ -57,11 +135,21 @@
 		43F2FB442B100C6600F355F1 /* Little Lemon */ = {
 			isa = PBXGroup;
 			children = (
+				43B4C2FB2B19A1B700409BCD /* Little-Lemon-Info.plist */,
+				43B4C2D62B19A0BA00409BCD /* Fonts */,
 				43F2FB452B100C6600F355F1 /* Little_LemonApp.swift */,
 				43EA37432B16BF6C0034B29E /* Onboarding.swift */,
 				43EA37452B16C29E0034B29E /* Home.swift */,
+				43B4C2D22B1993C700409BCD /* NavigationBarView.swift */,
 				43EA37492B16C6360034B29E /* UserProfile.swift */,
 				43EA37472B16C2C50034B29E /* Menu.swift */,
+				43B4C2D42B199CA300409BCD /* HexColorExtension.swift */,
+				43B4C2D02B188C9B00409BCD /* DishDetails.swift */,
+				43B4C2CD2B187FA800409BCD /* ExampleDatabase.xcdatamodeld */,
+				43B4C2C52B187C9D00409BCD /* FetchedObjects.swift */,
+				43B4C2C62B187C9D00409BCD /* Persistence.swift */,
+				43B4C2C92B187CE300409BCD /* MenuList.swift */,
+				43B4C2CB2B187D2500409BCD /* MenuItem.swift */,
 				43F2FB492B100C6800F355F1 /* Assets.xcassets */,
 				43F2FB4B2B100C6800F355F1 /* Preview Content */,
 			);
@@ -134,8 +222,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43B4C2EF2B19A16A00409BCD /* Karla-SemiBoldItalic.ttf in Resources */,
+				43B4C2E92B19A16A00409BCD /* Karla-Light.ttf in Resources */,
+				43B4C2F12B19A16A00409BCD /* Karla-Italic.ttf in Resources */,
+				43B4C2ED2B19A16A00409BCD /* Karla-ExtraLight.ttf in Resources */,
+				43B4C2E62B19A16A00409BCD /* Karla-ExtraBoldItalic.ttf in Resources */,
+				43B4C2F22B19A16A00409BCD /* Karla-Medium.ttf in Resources */,
+				43B4C2E52B19A16A00409BCD /* Karla-Bold.ttf in Resources */,
+				43B4C2EE2B19A16A00409BCD /* Karla-ExtraLightItalic.ttf in Resources */,
+				43B4C2FA2B19A18000409BCD /* MarkaziText-SemiBold.ttf in Resources */,
+				43B4C2F02B19A16A00409BCD /* Karla-ExtraBold.ttf in Resources */,
 				43F2FB4D2B100C6800F355F1 /* Preview Assets.xcassets in Resources */,
+				43B4C2F82B19A18000409BCD /* MarkaziText-Regular.ttf in Resources */,
+				43B4C2E72B19A16A00409BCD /* Karla-LightItalic.ttf in Resources */,
+				43B4C2F92B19A18000409BCD /* MarkaziText-Bold.ttf in Resources */,
+				43B4C2EB2B19A16A00409BCD /* Karla-Regular.ttf in Resources */,
+				43B4C2EA2B19A16A00409BCD /* Karla-SemiBold.ttf in Resources */,
+				43B4C2EC2B19A16A00409BCD /* Karla-MediumItalic.ttf in Resources */,
 				43F2FB4A2B100C6800F355F1 /* Assets.xcassets in Resources */,
+				43B4C2E82B19A16A00409BCD /* Karla-BoldItalic.ttf in Resources */,
+				43B4C2F72B19A18000409BCD /* MarkaziText-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,10 +253,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				43EA37442B16BF6C0034B29E /* Onboarding.swift in Sources */,
+				43B4C2D12B188C9B00409BCD /* DishDetails.swift in Sources */,
+				43B4C2D32B1993C700409BCD /* NavigationBarView.swift in Sources */,
 				43EA37462B16C29E0034B29E /* Home.swift in Sources */,
+				43B4C2CA2B187CE300409BCD /* MenuList.swift in Sources */,
+				43B4C2C72B187C9D00409BCD /* FetchedObjects.swift in Sources */,
+				43B4C2C82B187C9D00409BCD /* Persistence.swift in Sources */,
+				43B4C2CF2B187FA800409BCD /* ExampleDatabase.xcdatamodeld in Sources */,
 				43EA374A2B16C6360034B29E /* UserProfile.swift in Sources */,
+				43B4C2CC2B187D2500409BCD /* MenuItem.swift in Sources */,
 				43EA37482B16C2C50034B29E /* Menu.swift in Sources */,
 				43F2FB462B100C6600F355F1 /* Little_LemonApp.swift in Sources */,
+				43B4C2D52B199CA300409BCD /* HexColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +396,7 @@
 				DEVELOPMENT_TEAM = VM8NYTS53Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Little-Lemon-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -311,6 +426,7 @@
 				DEVELOPMENT_TEAM = VM8NYTS53Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Little-Lemon-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -351,6 +467,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		43B4C2CD2B187FA800409BCD /* ExampleDatabase.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				43B4C2CE2B187FA800409BCD /* ExampleDatabase.xcdatamodel */,
+			);
+			currentVersion = 43B4C2CE2B187FA800409BCD /* ExampleDatabase.xcdatamodel */;
+			path = ExampleDatabase.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 43F2FB3A2B100C6600F355F1 /* Project object */;
 }

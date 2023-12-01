@@ -5,6 +5,7 @@ let kFirstName = "first_name_key"
 let kLastName = "last_name_key"
 let kEmail = "email_key"
 let kIsLoggedIn = "kIsLoggedIn"
+let kPhoneNumber = "kPhoneNumber"
 
 struct Onboarding: View {
     
@@ -25,6 +26,10 @@ struct Onboarding: View {
                 ) {
                     EmptyView()
                 }
+                
+                Image("logo")
+                    .resizable()
+                    .frame(width: 320, height: 80)
                 
                 TextField("First Name", text: $firstName)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
@@ -66,6 +71,9 @@ struct Onboarding: View {
                     }
                 }
                 .padding()
+                .foregroundColor(.white)
+                .background(Color(hex: "495E57"))
+                .cornerRadius(10)
                 .onAppear {
                     if UserDefaults.standard.bool(forKey: kIsLoggedIn) {
                         isLoggedIn = true
